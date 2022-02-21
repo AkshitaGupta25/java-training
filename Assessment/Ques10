@@ -1,0 +1,6 @@
+1.
+The HashMap doesn't maintain any order whereas
+LinkedHashMap maintains insertion order.
+2.
+The HashMap extends AbstractMap class and implements Map interface,
+whereas the LinkedHashMap extends HashMap class and implements Map interface.

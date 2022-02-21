@@ -1,0 +1,11 @@
+1.
+List contains same or duplicate elements,
+whereas set contains unique elements
+
+2.
+The insertion order is maintained by the List,
+whereas set doesn't maintain insertion order.
+
+3.
+The List implementation classes are LinkedList and ArrayList.
+The Set implementation classes are TreeSet, HashSet and LinkedHashSet.
