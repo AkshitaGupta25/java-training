@@ -1,0 +1,19 @@
+ORM stands for Object-Relational Mapping
+
+When we work with an object-oriented system, there is a mismatch between
+the object model and the relational database. RDBMSs represent data in
+a tabular format whereas object-oriented languages, such as Java or C#
+represent it as an interconnected graph of objects.
+
+(ORM) is a programming technique for converting data between relational
+databases and object oriented programming languages such as Java, C#, etc.
+
+An ORM system has the following advantages over plain JDBC −
+
+Advantages:
+1	Let’s business code access objects rather than DB tables.
+2	Hides details of SQL queries from OO logic.
+3	No need to deal with the database implementation.
+4	Entities based on business concepts rather than database structure.
+5	Transaction management and automatic key generation.
+6	Fast development of application.

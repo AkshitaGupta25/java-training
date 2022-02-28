@@ -1,0 +1,4 @@
+hibernate.cfg.xml is the name of the default hibernate configuration file.
+
+<property name="hibernate.hbm2ddl.auto">update</property>
+This will create the table, in case table is not there.

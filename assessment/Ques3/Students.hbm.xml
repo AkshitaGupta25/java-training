@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/orm/hbm">
+
+    <class name="assessment.Ques3.Students" table="Students">
+        <id name="id" type="int">
+            <column name="id"></column>
+            <generator class="increment"></generator>
+        </id>
+        <property name="name" column="name" type="string"/>
+        <property name="marks" column="marks" type="int"/>
+    </class>
+</hibernate-mapping>

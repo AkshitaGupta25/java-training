@@ -1,0 +1,4 @@
+The primary advantage of the Criteria API is that it is intuitively designed
+to manipulate data without using any hard-coded SQL statements.
+Programmatic behavior offers compile-time syntax checking; as a result,
+most error messages are delivered during compilation.
