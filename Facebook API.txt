@@ -1,0 +1,38 @@
+1. Create Account ------ POST
+ https://www.facebook.com/create
+ {
+    "name":"",
+    "userID" : "",
+    "password":""
+    }
+
+2. Follow user ------ POST/PUT
+ https://www.facebook.com/follow
+{
+    "userID" : "" 
+    "followUserID" : ""
+    }
+
+3. Friend another user ------ POST/PUT
+ https://www.facebook.com/friend
+{
+    "userID" : "" 
+    "friendUserID" : ""
+    }
+
+4. Unfriend ------ DELETE
+ https://www.facebook.com/unfriend
+{
+    "userID" : "" 
+    "friendUserID" : ""
+    }
+
+5. Post ------ POST
+ https://www.facebook.com/post
+{
+    "userID" : ""
+    "post" : ""
+    }
+
+6. Likes ------ GET
+ https://www.facebook.com/likes?userId=123&post=12345
