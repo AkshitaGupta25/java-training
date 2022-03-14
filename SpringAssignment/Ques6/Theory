@@ -1,0 +1,6 @@
+Explain the benefits of DAO Pattern and provide an example.
+->The advantage of using data access objects is the relatively simple and rigorous separation between
+  two important parts of an application that can but should not know anything of each other, and which
+  can be expected to evolve frequently and independently.
+->If we need to change the underlying persistence mechanism we only have to change the DAO layer and not
+  all the places in the domain logic where the DAO layer is used from.
